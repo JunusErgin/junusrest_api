@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-uojp&*^iex&d&rwtx18v$0)^po(x7c$8g9lxv65(7*nw+pkoc0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['junusrestapi.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    'junusrestapi.pythonanywhere.com',
+    'localhost'
+]
 
 
 # Application definition

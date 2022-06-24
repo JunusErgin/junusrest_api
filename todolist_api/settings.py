@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'junusrestapi.pythonanywhere.com',
-    'localhost'
+    'localhost',
+    '127.0.0.1'
 ]
 
 
@@ -40,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'todo',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
